@@ -1,0 +1,17 @@
+{
+  "name": "angular-tree-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reexport": "ng-packagr -p ng-package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ng-packagr": "^1.0.1"
+  },
+  "dependencies": {
+    "angular-tree-component": "^4.1.0"
+  }
+}

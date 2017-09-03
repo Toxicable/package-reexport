@@ -1,0 +1,17 @@
+{
+  "name": "ng2-page-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reexport": "ng-packagr -p ng-package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ng2-page-scroll": "^4.0.0-beta.11"
+  },
+  "devDependencies": {
+    "ng-packagr": "^1.0.1"
+  }
+}
