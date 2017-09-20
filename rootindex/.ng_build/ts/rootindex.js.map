@@ -1,0 +1,1 @@
+{"version":3,"file":"rootindex.js","sources":["rootindex.ts"],"sourcesContent":["/**\n * Generated bundle index. Do not edit.\n */\n\nexport {ToxicComponent,MyModule} from './public_api';\n"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,EAAC,cAAc,EAAC,QAAQ,EAAC,MAAM,cAAc,CAAC"}

@@ -1,0 +1,7 @@
+{
+  "name": "rootindex",
+  "version": "1.0.0",
+  "main": "bundles/rootindex.umd.js",
+  "module": "rootindex.js",
+  "typings": "rootindex.d.ts"
+}
