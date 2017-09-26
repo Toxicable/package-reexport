@@ -1,1 +1,1 @@
-export * from 'ng2-page-scroll';
+export {Ng2PageScrollModule} from 'ng2-page-scroll';
