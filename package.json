@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "cd reexports/ng2-page-scroll && npm run build",
+    "start": "cd cli && npm run build:static",
+    "test": "npm run export && npm run start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ng-packagr": "^1.1.0"
+  }
 }

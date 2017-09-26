@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,OAAC,EAAA,cAAA,EAAA,QAAA,EAAA,MAAA,aAAA,CAAA","file":"index.js","sourceRoot":"","sourcesContent":["export {ToxicComponent,MyModule} from './my-module';"]}

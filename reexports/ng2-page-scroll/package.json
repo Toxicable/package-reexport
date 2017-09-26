@@ -1,17 +1,41 @@
 {
-  "name": "ng2-page-scroll",
+  "name": "ng2-page-scroll-exported",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "reexport": "ng-packagr -p ng-package.json"
+<<<<<<< HEAD
+    "build": "cp -R node_modules/ng2-page-scroll src && ng-packagr -p ng-package.json && rm -rf ../../cli/node_modules/ng2-page-scroll && cp -R dist ../../cli/node_modules/ng2-page-scroll",
+    "rollup": "",
+    "tsc": "tsc"
+=======
+    "cp-in": "cp -R node_modules/ng2-page-scroll ng2-page-scroll",
+    "cp-dist": "cp -R dist/. ng2-page-scroll",
+    "tsc": "tsc",
+    "build": "npm run cp-in && npm run tsc && npm run cp-dist"
+>>>>>>> d332c080b76d2dff41decf16525c034cbdd55ab1
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ng2-page-scroll": "^4.0.0-beta.11"
+<<<<<<< HEAD
+    "@angular/common": "^4.4.0-RC.0",
+    "@angular/core": "^4.4.0-RC.0",
+    "@angular/router": "^4.4.0-RC.0",
+=======
+    "@angular/common": "^4.3.0",
+    "@angular/core": "^4.3.0",
+    "@angular/router": "^4.3.0",
+>>>>>>> d332c080b76d2dff41decf16525c034cbdd55ab1
+    "ng2-page-scroll": "^4.0.0-beta.11",
+    "rxjs": "^5.4.3"
   },
   "devDependencies": {
-    "ng-packagr": "^1.0.1"
+<<<<<<< HEAD
+    "ng-packagr": "^1.0.1",
+    "rollup": "^0.49.3",
+=======
+>>>>>>> d332c080b76d2dff41decf16525c034cbdd55ab1
+    "typescript": "^2.5.2"
   }
 }

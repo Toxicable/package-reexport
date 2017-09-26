@@ -1,8 +1,8 @@
 {
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
-    "flatModuleId": "ng2-page-scroll-exported",
-    "flatModuleOutFile": "ng2-page-scroll-exported.js",
+    "flatModuleId": "rootindex",
+    "flatModuleOutFile": "rootindex.js",
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true
   },

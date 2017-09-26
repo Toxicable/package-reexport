@@ -1,0 +1,24 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "sourceMap": true,
+      "outDir": "dist",
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "module": "commonjs",
+      "allowJs": true,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [
+        "es2017",
+        "dom"
+      ]
+    },
+    "include": [
+      "angular-tree-component/**/*"
+    ]
+  }

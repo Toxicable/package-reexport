@@ -1,0 +1,1 @@
+{"version":3,"sources":["public_api.ts"],"names":[],"mappings":"AAAA,OAAC,EAAA,cAAA,EAAA,QAAA,EAAA,MAAA,aAAA,CAAA","file":"public_api.js","sourceRoot":"","sourcesContent":["export {ToxicComponent,MyModule} from './src/index';"]}
